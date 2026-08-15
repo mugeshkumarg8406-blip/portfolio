@@ -1,9 +1,17 @@
 const ENTRIES = [
   {
-    role: 'Backend Developer Intern',
-    year: '2023—2024',
-    org: 'Tech Startup Inc.',
-    desc: 'Developed RESTful APIs using Python and Django, improving data retrieval times by 20%. Assisted in migrating local services to AWS.'
+    role: 'Full Stack Development Intern',
+    year: 'Jan 2026',
+    org: 'Elysian Intelligence Business Solution Pvt. Ltd.',
+    desc: 'Completed a hands-on internship focused on full stack development, working through practical assignments with professionalism and a strong learning mindset.',
+    doc: '/internship_certificate_1.pdf'
+  },
+  {
+    role: 'Python Full Stack Development Intern',
+    year: 'Jul 2026',
+    org: 'Elysian Intelligence Business Solution Pvt. Ltd.',
+    desc: 'Completed a second internship at the same organization, this time focused on Python-based full stack development, building on foundational full stack skills.',
+    doc: '/internship_certificate_2.pdf'
   }
 ]
 
@@ -20,6 +28,17 @@ export default function Internship() {
             </div>
             <div className="tl-org">{e.org}</div>
             <p className="tl-desc">{e.desc}</p>
+            {e.doc && (
+              
+                href={e.doc}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-ghost"
+                style={{ marginTop: '12px', display: 'inline-block', padding: '8px 14px' }}
+              >
+                View Certificate
+              </a>
+            )}
           </div>
         ))}
       </div>
