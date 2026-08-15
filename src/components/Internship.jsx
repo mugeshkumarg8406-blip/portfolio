@@ -4,14 +4,14 @@ const ENTRIES = [
     year: 'Jan 2026',
     org: 'Elysian Intelligence Business Solution Pvt. Ltd.',
     desc: 'Completed a hands-on internship focused on full stack development, working through practical assignments with professionalism and a strong learning mindset.',
-    doc: '/internship_certificate_1.pdf'
+    doc: 'internship1.pdf'
   },
   {
     role: 'Python Full Stack Development Intern',
     year: 'Jul 2026',
     org: 'Elysian Intelligence Business Solution Pvt. Ltd.',
     desc: 'Completed a second internship at the same organization, this time focused on Python-based full stack development, building on foundational full stack skills.',
-    doc: '/internship_certificate_2.pdf'
+    doc: 'internship2.pdf'
   }
 ]
 
