@@ -29,13 +29,7 @@ export default function Internship() {
             <div className="tl-org">{e.org}</div>
             <p className="tl-desc">{e.desc}</p>
             {e.doc && (
-              
-                href={e.doc}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-ghost"
-                style={{ marginTop: '12px', display: 'inline-block', padding: '8px 14px' }}
-              >
+              <a href={e.doc} target="_blank" rel="noopener noreferrer" className="btn btn-ghost" style={{ marginTop: '12px', display: 'inline-block', padding: '8px 14px' }}>
                 View Certificate
               </a>
             )}
