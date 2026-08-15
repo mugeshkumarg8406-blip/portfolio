@@ -3,7 +3,7 @@ import profilePhoto from '../assets/mugeshkumar.jpeg'
 const SOCIALS = [
   {
     name: 'LinkedIn',
-    href: 'www.linkedin.com/in/mugesh-kumar-g-824b8632b',
+    href: 'https://www.linkedin.com/in/mugesh-kumar-g-824b8632b',
     icon: (
       <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" strokeWidth="1.6" /><path d="M7.5 10.5v6M7.5 7.5v.01M12 16.5v-3.7c0-1.5 1-2.3 2.2-2.3 1.2 0 1.8.8 1.8 2.3v3.7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
     )
