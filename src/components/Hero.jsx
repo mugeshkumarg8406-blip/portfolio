@@ -17,7 +17,7 @@ const SOCIALS = [
   },
   {
     name: 'Instagram',
-    href: '#',
+    href: 'https://www.instagram.com/_mugesh_g.v_?igsh=MXY1c3Vma2ZrODluYQ==&igsi=MXY1c3Vma2ZrODluYQ==&utm_source=ig_contact_invite',
     icon: (
       <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="1.6" /><circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.6" /><circle cx="17.2" cy="6.8" r="1" fill="currentColor" /></svg>
     )
