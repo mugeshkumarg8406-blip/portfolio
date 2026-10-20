@@ -21,13 +21,6 @@ const SOCIALS = [
     icon: (
       <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="1.6" /><circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.6" /><circle cx="17.2" cy="6.8" r="1" fill="currentColor" /></svg>
     )
-  },
-  {
-    name: 'WhatsApp',
-    href: 'https://wa.me/919345742580',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 0 0-7.79 13.5L3 21l4.65-1.19A9 9 0 1 0 12 3z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" /><path d="M8.5 8.8c.15-.4.3-.55.6-.55h.5c.25 0 .4.1.5.4.15.4.5 1.3.55 1.4.05.1.08.23 0 .38-.08.15-.12.25-.25.38-.12.13-.26.3-.37.4-.12.12-.25.25-.1.5.15.25.65 1.05 1.4 1.7.95.85 1.75 1.1 2 1.25.25.13.4.1.55-.05.15-.15.6-.7.75-.95.15-.25.3-.2.5-.13.2.08 1.3.6 1.5.72.2.1.35.15.4.25.05.13.05.7-.2 1.35-.25.65-1.4 1.2-1.95 1.28-.5.08-1.1.1-1.8-.1a15.5 15.5 0 0 1-1.6-.6c-2.5-1.1-4.1-3.5-4.25-3.7-.13-.2-1.05-1.4-1.05-2.65 0-1.25.65-1.85.88-2.1z" fill="currentColor" /></svg>
-    )
   }
 ]
 
